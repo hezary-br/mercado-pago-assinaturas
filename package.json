@@ -1,0 +1,28 @@
+{
+  "name": "mercado-pago-assinaturas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write src",
+    "dev": "tsx src/server.ts",
+    "dev:watch": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "mercadopago": "^2.0.9",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/mercadopago": "^1.5.11",
+    "@types/morgan": "^1.9.9",
+    "prettier": "^3.2.5",
+    "tsx": "^4.7.2"
+  }
+}
